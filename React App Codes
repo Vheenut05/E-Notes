@@ -17,3 +17,45 @@ const App = () => {
 
 export default App;
 
+/* src/App.css */
+
+body {
+  background-color: #ecf1f4; /* Light gray background color */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: rgb(20, 20, 223);
+  padding: 20px;
+  color: white;
+}
+
+/* Style for the buttons */
+button {
+  background-color: rgb(243, 242, 234);
+  color: rgb(7, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Change button color on hover */
+button:hover {
+  background-color: rgb(241, 7, 206);
+}
+
+/* Style for the FileUpload component */
+.FileUpload {
+  border: 2px dashed darkblue;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
